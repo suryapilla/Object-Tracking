@@ -1,5 +1,5 @@
 # Orientation-Tracking-and-Panoramic-image-generation
-NEW
+
 Step 0:>>> Place all these scripts in the same directory
 
 Step 1:>>> First install the requirement files in new environmnet: pip3 install requirements.txt
