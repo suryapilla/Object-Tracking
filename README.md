@@ -1,14 +1,16 @@
 # Orientation-Tracking-and-Panoramic-image-generation
-NEW
+
 Step 0:>>> Place all these scripts in the same directory
 
-Step 1:>>> First install the requirement files in new environmnet: pip3 install requirements.txt
+Step 1:>>> First install the requirement files in new environmnet: pip install requirements.txt
 
 Step 2:>>> utilsCam and utils files have all the relevant functions required for the main function
 
-Step 3:>>> For training run the main function by giving the correct path to the data folder
+Step 3:>>> setup the path as per the config.yml file in config directory
 
-Step 4:>>> There are 3 sections in the main.py script:
+Step 4:>>> For training run the main function by giving the correct path to the data folder
+
+Step 5:>>> There are 3 sections in the main.py script:
 
 	1 >>> Object tracking part
 
@@ -16,9 +18,9 @@ Step 4:>>> There are 3 sections in the main.py script:
 	
 	3 >>> Panorama generation
 	
-Step 5:>>> For testing run testMain.py script, with correct test data directory in path
+Step 6:>>> For testing run testMain.py script, with correct test data directory in path
 
-Step 6:>>> This if for testing data where VICON data is not available, the flow is similar to the main.py
+Step 7:>>> This if for testing data where VICON data is not available, the flow is similar to the main.py
 	
 	1 >>> Object tracking part
 	
