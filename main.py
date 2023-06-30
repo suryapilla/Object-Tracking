@@ -14,17 +14,20 @@ import pdb
 # Read the data
 # Given input data path
 
-with open("/home/surya/Desktop/ucsd/ECE276A/PR1/SuryaPillaCodeSubmission/config/config.yml") as file:
+with open("/home/surya/Desktop/ucsd/ECE276A/PR1/SuryaPillaCodeSubmission/Object-Tracking/config/config.yml") as file:
     config = yaml.load(file, Loader=yaml.FullLoader)
 
 # breakpoint()
 parser = argparse.ArgumentParser()
 parser.add_argument('--dataset', '-d', type=int,help="Enter the dataset number",choices=[1,2,3,4])
+
 config['dataset'] = parser.parse_args().dataset
 # breakpoint()
 
+
 path_train = config['trainpath']
 path_test = config['testpath']
+
 dataset = config['dataset']
 cfile = path_train + "/cam/cam" + str(dataset) + ".p"
 ifile = path_train + "/imu/imuRaw" + str(dataset) + ".p"
