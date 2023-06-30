@@ -1,7 +1,5 @@
 # Orientation-Tracking-and-Panoramic-image-generation
 
-Step 0:>>> Place all these scripts in the same directory
-
 Step 1:>>> First install the requirement files in new environmnet: pip install requirements.txt
 
 Step 2:>>> utilsCam and utils files have all the relevant functions required for the main function
