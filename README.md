@@ -5,6 +5,15 @@ Implement a projected gradient descent algorithm to track the 3-D orientation of
 readings from an inertial measurement unit (IMU). Using your orientation estimates, generate a panoramic
 image by stitching camera images obtained by the rotating body
 
+## Results of Roll, Pitch and Yaw before and after optimization
+![Alt Text](https://raw.githubusercontent.com/suryapilla/Object-Tracking/main/figures/data2/roll2.png)
+
+![Alt Text](https://raw.githubusercontent.com/suryapilla/Object-Tracking/main/figures/data2/Pitch2.png)
+
+![Alt Text](https://raw.githubusercontent.com/suryapilla/Object-Tracking/main/figures/data2/yaw2.png)
+
+## Results of panoramic stitching:
+![Alt Text](https://raw.githubusercontent.com/suryapilla/Object-Tracking/main/figures/panStiching/9.png)
 
 ## Code:
 
@@ -37,11 +46,11 @@ python main.py
 python testMain.py
 ```
 
-7. This if for testing data where VICON data is not available, the flow is similar to the main.py
+7. This is for testing data where VICON data is not available, the flow is similar to the main.py
 	
-	1 >>> Object tracking part
+	- Object tracking part
 	
-	2 >>> Plotting the roll, pitch and yaw for Unoptimized and Optimized data
+	- Plotting the roll, pitch and yaw for Unoptimized and Optimized data
 	
-	3 >>> Panorama generation
+	- Panorama generation
  
