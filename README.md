@@ -1,24 +1,43 @@
 # Orientation-Tracking-and-Panoramic-image-generation
 
-Step 1:>>> First install the requirement files in new environmnet: pip install requirements.txt
+## Objective:
+Implement a projected gradient descent algorithm to track the 3-D orientation of a rotating body using
+readings from an inertial measurement unit (IMU). Using your orientation estimates, generate a panoramic
+image by stitching camera images obtained by the rotating body
 
-Step 2:>>> utilsCam and utils files have all the relevant functions required for the main function
 
-Step 3:>>> setup the path as per the config.yml file in config directory
+## Code:
 
-Step 4:>>> For training run the main function by giving the correct path to the data folder
+1. Install the requirement files in new virtual environmnet: 
+```
+conda create --name env_ObjTrack
+conda activate env_ObjTrack
+git clone https://github.com/suryapilla/Object-Tracking.git
+pip install requirements.txt
+```
+2. utilsCam.py and utils.py files have all the relevant functions required for the main function
 
-Step 5:>>> There are 3 sections in the main.py script:
+3. setup the path as per the config.yml file in config directory
 
-	1 >>> Object tracking part
+4. For training run the main function by giving the correct path to the data folder
+```
+python main.py
+```
 
-	2 >>> Plotting the roll, pitch and yaw for VICON, Unoptimized and Optimized data
+5. There are 3 sections in the main.py script:
+
+	- Object tracking part
+
+	- Plotting the roll, pitch and yaw for VICON, Unoptimized and Optimized data
 	
-	3 >>> Panorama generation
+	- Panorama generation
 	
-Step 6:>>> For testing run testMain.py script, with correct test data directory in path
+6. For testing run testMain.py script, with correct test data directory in path
+```
+python testMain.py
+```
 
-Step 7:>>> This if for testing data where VICON data is not available, the flow is similar to the main.py
+7. This if for testing data where VICON data is not available, the flow is similar to the main.py
 	
 	1 >>> Object tracking part
 	
