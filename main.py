@@ -14,7 +14,7 @@ import pdb
 # Read the data
 # Given input data path
 
-with open("/home/surya/Desktop/ucsd/ECE276A/PR1/SuryaPillaCodeSubmission/config/config.yml") as file:
+with open("/config/config.yml") as file:
     config = yaml.load(file, Loader=yaml.FullLoader)
 
 # breakpoint()
